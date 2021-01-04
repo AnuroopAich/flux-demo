@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: k8s-demo
-        image: anuroopaich/k8s-demo:1.0.2
+        image: anuroopaich/k8s-demo:1.0.3
         ports:
         - name: nodejs-port
           containerPort: 3000
