@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: docker-nodejs-demo
+  name: helloworld-service
   namespace: demo
 spec:
   ports:
@@ -9,5 +9,5 @@ spec:
     targetPort: nodejs-port
     protocol: TCP
   selector:
-    app: docker-nodejs-demo
+    app: helloworld
   type: NodePort
